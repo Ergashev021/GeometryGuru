@@ -1,5 +1,4 @@
-# GeometryGuru
-men buni arifmetik amallar va yangi mavzular uchun 
+![Logo](/assets/logo.jpg)
 # GeometryGuru * / - +
 **arifmetik amallardan foydalanadi** 
 
@@ -11,6 +10,7 @@ men buni arifmetik amallar va yangi mavzular uchun
  - ayruv amali 
  ## dastlab 
  1. ## Ko'poaytirish amalidan boshlaymiz 
- [Github] (https://github.com/Ergashev021/GeometryGuru#)
+ **[Github](https://github.com/Ergashev021/GeometryGuru#)**
+
 
 
