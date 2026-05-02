@@ -78,6 +78,38 @@ Console.WriteLine("Ushbu dastur orqali \n \t 1: Arifmetik amallarni xisoblash \n
 {
     case 1:
         {
+            Console.Write("Ikki son ustida amallar ");
+            Console.Write("a sonini kiriting : ");
+            string inputFirst = Console.ReadLine();
+            int a = Convert.ToInt32(inputFirst);
+            Console.Write("b sonini kiriting : ");
+            string inputSecond = Console.ReadLine();
+            int b = Convert.ToInt32(inputSecond);
+            Console.Write("Amalni kiriting (+, -, *, /): ");
+            string amal = Console.ReadLine();
+            if (amal == "+")
+            {
+                Console.WriteLine("Natija: " + (a + b));
+            }
+            else if (amal == "-")
+            {
+                Console.WriteLine("Natija: " + (a - b));
+            }
+            else if (amal == "*")
+            {
+                Console.WriteLine("Natija: " + (a * b));
+            }
+            else if (amal == "/")
+            {
+                if (b == 0)
+                    Console.WriteLine("0 ga bolish mumkin emas ");
+                else
+                    Console.WriteLine("Natija: " + (a / b));
+            }
+            else
+            {
+                Console.WriteLine("Notogri amal kiritildi ");
+            }
             break;
         }
     case 2:
