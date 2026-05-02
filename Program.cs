@@ -114,7 +114,29 @@ Console.WriteLine("Ushbu dastur orqali \n \t 1: Arifmetik amallarni xisoblash \n
         }
     case 2:
         {
+            Console.WriteLine("Uchburchakni yuzini topish Geron Formulasi");
+            Console.Write(" a tomon : ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.Write(" b tomon : ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Console.Write(" c tomon : ");
+            double c = Convert.ToDouble(Console.ReadLine());
+            if (a + b > c && a + c > b && b + c > a)
+            {
+                double p = (a + b + c) / 2;
+                double S = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+
+                Console.WriteLine("Yuza: " + S);
+            }
+            else
+            {
+                Console.WriteLine("Bunday uchburchak mavjud emas ");
+            }
             break;
         }
+     default:
+        Console.WriteLine("Bunday tugma mavjud emas ");
+        break;
+
 }
 
