@@ -71,5 +71,18 @@ double y2 = Convert.ToDouble(Console.ReadLine());
 
 }*/
 // 5-dars vazifasi 
-Console.WriteLine("Ushbu dastur orqali \n \t 1: Kv tenglamani xisoblash \n\t 2: Geron Formulasi  ");
- 
+Console.WriteLine("Ushbu dastur orqali \n \t 1: Arifmetik amallarni xisoblash \n\t 2: Geron Formulasi  ");
+ string str = Console.ReadLine();
+ int userInput = Convert.ToInt32(str);
+ switch (userInput)
+{
+    case 1:
+        {
+            break;
+        }
+    case 2:
+        {
+            break;
+        }
+}
+
