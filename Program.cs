@@ -75,7 +75,7 @@ bool s = true;
 while(s)
 {
     Console.Clear();
-    Console.WriteLine("Ushbu dastur orqali \n \t 1: Arifmetik amallarni xisoblash \n\t 2: Geron Formulasi \n\t 3:Sonning kvadratini qaytarish ");
+    Console.WriteLine("Ushbu dastur orqali \n \t 1: Arifmetik amallarni xisoblash \n\t 2: Geron Formulasi \n\t 3:Sonning kvadratini qaytarish \n\t 4 : Tub son  ");
     string str = Console.ReadLine();
     int userInput = Convert.ToInt32(str);
     switch (userInput)
@@ -148,6 +148,36 @@ while(s)
                 int b = Convert.ToInt32(inputSecond);
                 Console.WriteLine(Math.Pow(a,b));
                 break;   
+            }
+        case 4:
+            {
+                Console.WriteLine("Tub sonlarni yig'indisini topuvchi dastur ");
+                int summa = 0;
+                // string inputFirst = Console.ReadLine();
+                // int a = Convert.ToInt32(inputFirst);
+                // Console.Write("b sonini kiriting : ");
+                // string inputSecond = Console.ReadLine();
+                // int b = Convert.ToInt32(inputSecond);
+                for (int i = 1;i <= 10;i++)
+                {
+                    int counter = 0;
+                    for (int j = 2;j <= i;j++)
+                    {
+                        if (i % j == 0)
+                        {
+                            counter ++;
+                           
+                        }
+                    }
+                    if (counter == 1)
+                    {
+                        Console.Write($"-{i}-");
+                         summa += i;
+                    }
+
+                }
+                Console.WriteLine("Natija : " + summa);
+                break;
             }
         default:
             Console.WriteLine("Bunday tugma mavjud emas ");
