@@ -134,6 +134,17 @@ Console.WriteLine("Ushbu dastur orqali \n \t 1: Arifmetik amallarni xisoblash \n
             }
             break;
         }
+    case 3:
+        {
+            Console.Write("Sonning kvadratini topuvchi dastur : ");
+            string inputFirst = Console.ReadLine();
+            int a = Convert.ToInt32(inputFirst);
+            Console.Write("b sonini kiriting : ");
+            string inputSecond = Console.ReadLine();
+            int b = Convert.ToInt32(inputSecond);
+            Console.WriteLine(Math.Pow(a,b));
+            break;   
+        }
      default:
         Console.WriteLine("Bunday tugma mavjud emas ");
         break;
