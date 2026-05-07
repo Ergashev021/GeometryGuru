@@ -13,7 +13,8 @@
 # - Tub son tekshirish 
 
 # ***Ushbu menyulardan tashkil topgan***
-
+# Natija 
+![Result](/assets/Анимация.gif)
 # **[Github](https://github.com/Ergashev021/GeometryGuru#)** 
 
 
