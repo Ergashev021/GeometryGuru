@@ -12,9 +12,9 @@
 # - 1 dan N gacha yig'indi 
 # - Tub son tekshirish 
 
- **Ushbu menyulardan tashkil topgan** 
+# ***Ushbu menyulardan tashkil topgan***
 
- **[Github](https://github.com/Ergashev021/GeometryGuru#)**
+# **[Github](https://github.com/Ergashev021/GeometryGuru#)** 
 
 
 
