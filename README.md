@@ -1,15 +1,17 @@
-![Logo](/assets/logo.jpg)
+![Logo](/assets/Guru.png)
 # GeometryGuru * / - +
-**arifmetik amallardan foydalanadi** 
+**arifmetik amallardan foydalanadi methods yaratish** 
 
-*masalan*
+# GeomtryGuruda yaratilgan methods
  
- - ko'paytirish * amali 
- - bo'lish amali 
- - qo'shish amali 
- - ayruv amali 
- ## dastlab 
- 1. ## Ko'poaytirish amalidan boshlaymiz 
+ - Ikki sonni qo'shish
+ - Ikki sonni bo'lish  
+ - Geron xisoblash  
+ - Eng katta sonni topish 
+ - Facktarial 
+ - 1 dan N gacha yig'indi 
+ - Tub son tekshirish 
+ **Ushbu menyulardan tashkil topgan** 
  **[Github](https://github.com/Ergashev021/GeometryGuru#)**
 
 
