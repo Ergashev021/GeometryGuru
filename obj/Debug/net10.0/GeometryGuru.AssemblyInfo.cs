@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeometryGuru")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c22b939c395e73a27bb6f0b996eea2f87667885")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd6571bc8359c6d2ce384bab1b1508524b317b2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeometryGuru")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeometryGuru")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
